@@ -5,7 +5,8 @@ import (
 	"github.com/hashicorp/consul/api"
 )
 
-func unregister(consulAddress string, serviceID string) {
+// Unregister 将服务从consul中注销
+func Unregister(consulAddress string, serviceID string) {
 	// 设置配置，作为客户端连接consul
 	config := api.DefaultConfig()
 	config.Address = consulAddress
