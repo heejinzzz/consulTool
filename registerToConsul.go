@@ -6,7 +6,8 @@ import (
 	"strconv"
 )
 
-func register(consulAddress string, serviceID string, serviceName string, serviceTags []string, serviceAddress string, servicePort int) {
+// Register 将服务注册到consul中
+func Register(consulAddress string, serviceID string, serviceName string, serviceTags []string, serviceAddress string, servicePort int) {
 	// 设置配置，作为客户端连接consul
 	config := api.DefaultConfig()
 	config.Address = consulAddress
