@@ -7,14 +7,14 @@ Tool to register and unregister services with consul.
 ## requirement
 If you import "github.com/heejinzzz/consulTool" in your code, you may need to execute this command first:
 
-	go get go-micro.dev/v4@4.7.0
+	go get go-micro.dev/v4
 Then execute:
 
 	go mod tidy
 
 若你在你的代码中 import 了 "github.com/heejinzzz/consulTool" ，你可能需要先执行：
 
-	go get go-micro.dev/v4@4.7.0
+	go get go-micro.dev/v4
 再执行：
 
 	go mod tidy
