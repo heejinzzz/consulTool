@@ -2,10 +2,9 @@ package consulTool
 
 import (
 	"fmt"
-	"github.com/asim/go-micro/plugins/registry/consul/v4"
-	"go-micro.dev/v4"
 	"go-micro.dev/v4/registry"
 	"go-micro.dev/v4/selector"
+	"github.com/asim/go-micro/plugins/registry/consul/v4"
 )
 
 // GetServerAddress 根据serviceID，去指定的consul服务器上获取该服务的服务端地址
