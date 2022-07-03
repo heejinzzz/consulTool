@@ -3,6 +3,7 @@ package consulTool
 import (
 	"fmt"
 	"github.com/asim/go-micro/plugins/registry/consul/v4"
+	"go-micro.dev/v4"
 	"go-micro.dev/v4/registry"
 	"go-micro.dev/v4/selector"
 )
